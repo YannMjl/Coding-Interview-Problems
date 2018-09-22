@@ -2,7 +2,6 @@
 #
 # Write a function which accepts an input word and returns true or false
 # if there exists an anagram of that input word that is a palindrome.
-#
 
 # O(n) => linear
 # O(1) => constant
@@ -32,8 +31,6 @@ def anagram_palindrome(word):
 
 # the run time will be O(n) as the slicing methot has to go throught each character
 # of the string and compare both strings.
-
-
 
 print(anagram_palindrome("noon")) ## true
 
