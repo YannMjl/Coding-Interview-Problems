@@ -1,5 +1,7 @@
 # Coding-Interview-Problems
 
+This project content answers to sample questions similar to those asked during a coding interview.
+
 ## Author
 
 * **[Yann Mulonda](https://github.com/YannMjl)**
