@@ -8,6 +8,10 @@ a_string = "This is a strig"
 print(a_string)
 
 # given a string, letter = "ABCD"
-# print the second character of the string
 letter = "ABCD"
+# print the second character of the string
 print("The second character of the letter string is: ", letter[1])
+
+# print each character of the string
+for character in letter:
+    print(character)
