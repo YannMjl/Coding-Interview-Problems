@@ -15,3 +15,13 @@ print("The second character of the letter string is: ", letter[1])
 # print each character of the string
 for character in letter:
     print(character)
+
+# iterate over each character using the "for i in range()" style
+for i in range(len(letter)):
+    print(letter[i])
+
+# let's try something more challeging
+# write a fucntion that takes two strings and returns "Ture" 
+# if the two strings are reverse of each other
+
+
