@@ -1,7 +1,32 @@
 # Dictionary in python are also refered to as hash table in other languages like java
 
-# given an aary of numbers, find a pair of number that add up to 10
+# initialize a dictionary
+a_dict = {'FirstName': 'Yann', 'LastName': 'Mulonda', 'age': 177, 'year': 2018}
+print(a_dict)
 
+# retrive value from a key
+print("We are in the year: ", a_dict['year'])
+
+# add a new key and value
+a_dict['city'] = 'Minneapolis'
+a_dict['Zipcode'] = 55414
+print(a_dict)
+
+# given a list of names, write a function that finds a name that appears twice in the list
+a_list = {'mark', 'tom', 'jim', 'tony', 'tom', 'frank'}
+
+def repeatedName(given_list):
+  dictionary_name = {}
+  for name in given_list:
+    if name in dictionary_name:
+      return name
+    else:
+      dictionary_name[name] = 1
+  return 'There is no name that appears twice'
+
+
+
+# given an aary of numbers, find a pair of number that add up to 10
 # The function should return or print out the pair of number that add up to 10
 # we will resolve this sulation with a run time of O(n)
 
