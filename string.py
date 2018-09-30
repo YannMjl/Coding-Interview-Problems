@@ -61,14 +61,24 @@ print(IsReverse("DGCF", "CFGD")) # should return False
 string1 = "107" 
 string2 = "87"
 
-def IsGreater(givenString1, givenString2):
-    if len(givenString1) == len(givenString2):
+def IsGreaterThan(givenString1, givenString2):
+    if len(givenString1) > len(givenString2): # string1 lenght greater than string2
+        return True
+    elif len(givenString1) < len(givenString2): # string1 lenght less than string2
+        return False
+    elif len(givenString1) == len(givenString2):
         for i in range(len(givenString1)):
-            if givenString1[i] != givenString2[i]:
+            if givenString1[i] == givenString2[i]:
+                continue
+            elif givenString1[i] < givenString2[i]:
                 return False
-    return True
+            else:
+                return True
 
-print(IsGreater(string1, string2))
+print(IsGreaterThan(string1, string2)) # should return True
+print(IsGreaterThan("112", "111")) # should return True
+print(IsGreaterThan("56", "467")) # should return False
+print(IsGreaterThan("89", "0")) # should return True
 
 
  
