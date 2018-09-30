@@ -46,4 +46,29 @@ print(IsReverse("ADC", "CDA")) # should return True
 print(IsReverse("DGCF", "CFGD")) # should return False
 
 
+# Problem 2
+# given two string of numbers
+# string1 = "107" and string2 = "87"
+# compare the two string and return True is the number in the first string
+# is greather than the number in the second string without converting the string
+# to Integer
+
+# we will first compare the lenght of both string: if the first string has a lenght
+# greather than the second string, then its value is grather the number in the second string
+
+# if both strings have the same lenght, then we'll comapre each character 
+
+string1 = "107" 
+string2 = "87"
+
+def IsGreater(givenString1, givenString2):
+    if len(givenString1) == len(givenString2):
+        for i in range(len(givenString1)):
+            if givenString1[i] != givenString2[i]:
+                return False
+    return True
+
+print(IsGreater(string1, string2))
+
+
  
