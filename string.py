@@ -74,7 +74,7 @@ def IsGreaterThan(givenString1, givenString2):
                 return False
             else:
                 return True
-    return False
+    return False # if both number in the strings are equals
 
 print(IsGreaterThan(string1, string2)) # should return True
 print(IsGreaterThan("112", "111")) # should return True
