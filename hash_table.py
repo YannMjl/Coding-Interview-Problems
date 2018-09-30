@@ -1,3 +1,5 @@
+# Dictionary in python are also refered to as hash table in other languages like java
+
 # given an aary of numbers, find a pair of number that add up to 10
 
 # The function should return or print out the pair of number that add up to 10
