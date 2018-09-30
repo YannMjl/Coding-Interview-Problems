@@ -74,11 +74,13 @@ def IsGreaterThan(givenString1, givenString2):
                 return False
             else:
                 return True
+    return False
 
 print(IsGreaterThan(string1, string2)) # should return True
 print(IsGreaterThan("112", "111")) # should return True
 print(IsGreaterThan("56", "467")) # should return False
 print(IsGreaterThan("89", "0")) # should return True
+print(IsGreaterThan("5","5")) # should return False
 
 
  
