@@ -26,7 +26,6 @@ def repeatedName(given_list):
 
 print(repeatedName(a_dict_list))
 
-
 # given an aary of numbers, find a pair of number that add up to 10
 # The function should return or print out the pair of number that add up to 10
 # we will resolve this sulation with a run time of O(n)
@@ -46,12 +45,12 @@ def IsPairOf10 (given_array):
       seen_numbers[item] = 'number in the list'
   print('there is no a pair of numbers that adds up to 10')
 
-
 # let's test the function
 list1 = [4, 5, 7, 3]
 list2 = [5, 7, 0, 6, 5]
 list3 = [9, 2, 8, 1, 3]
 list4 = [-12, 4, -67, 2]
+
 print(IsPairOf10(list1))
 print(IsPairOf10(list2))
 print(IsPairOf10(list3))
