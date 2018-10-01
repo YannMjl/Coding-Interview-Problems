@@ -40,7 +40,7 @@ def IsPairOf10 (given_array):
   seen_numbers = {}
   for item in given_array:
     if (10 - item) in seen_numbers:
-      print("The following pair of number in array adds up to 10" + str(item) + " and " + str(10-item))
+      print('The following pair of number in array adds up to 10: ' + str(item) + ' and ' + str(10 - item))
       return
     else:
       seen_numbers[item] = 'number in the list'
@@ -50,7 +50,7 @@ def IsPairOf10 (given_array):
 # let's test the function
 list1 = [4, 5, 7, 3]
 list2 = [5, 7, 0, 6, 5]
-list3 = [9,2, 8, 1, 3]
+list3 = [9, 2, 8, 1, 3]
 list4 = [-12, 4, -67, 2]
 print(IsPairOf10(list1))
 print(IsPairOf10(list2))
