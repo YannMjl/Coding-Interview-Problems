@@ -44,6 +44,5 @@ print(anagram_palindrome("a")) ## true
 
 print(anagram_palindrome("aotoa")) ## true
 
-
 print(anagram_palindrome("ddaaa")) ## false
 # "daaad" or "adada"

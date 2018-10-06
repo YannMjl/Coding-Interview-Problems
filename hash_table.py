@@ -48,7 +48,6 @@ def IsPairOf10 (given_array):
 # let's test the function
 list1 = [4, 5, 7, 3]
 list2 = [5, 7, 0, 6, 5]
-
 list3 = [9, 2, 8, 1, 3]
 list4 = [-12, 4, -67, 2]
 
