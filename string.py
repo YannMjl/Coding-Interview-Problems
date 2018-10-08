@@ -41,10 +41,9 @@ def IsReverse(given_String_one, given_String_two):
     return True
 
 # let try our function
-print(IsReverse(string_one, Strong_two)) # should return True
-print(IsReverse("ADC", "CDA")) # should return True
-print(IsReverse("DGCF", "CFGD")) # should return False
-
+print(IsReverse(string_one, Strong_two))  # should return True
+print(IsReverse("ADC", "CDA"))            # should return True
+print(IsReverse("DGCF", "CFGD"))          # should return False
 
 # Problem 2
 # given two string of numbers
@@ -62,7 +61,7 @@ string1 = "107"
 string2 = "87"
 
 def IsGreaterThan(givenString1, givenString2):
-    if len(givenString1) > len(givenString2): # string1 lenght greater than string2
+    if len(givenString1) > len(givenString2):   # string1 lenght greater than string2
         return True
     elif len(givenString1) < len(givenString2): # string1 lenght less than string2
         return False
@@ -74,13 +73,10 @@ def IsGreaterThan(givenString1, givenString2):
                 return False
             else:
                 return True
-    return False # if both number in the strings are equals
+    return False                           # if both number in the strings are equals
 
-print(IsGreaterThan(string1, string2)) # should return True
-print(IsGreaterThan("112", "111")) # should return True
-print(IsGreaterThan("56", "467")) # should return False
-print(IsGreaterThan("89", "0")) # should return True
-print(IsGreaterThan("5","5")) # should return False
-
-
- 
+print(IsGreaterThan(string1, string2))    # should return True
+print(IsGreaterThan("112", "111"))        # should return True
+print(IsGreaterThan("56", "467"))         # should return False
+print(IsGreaterThan("89", "0"))           # should return True
+print(IsGreaterThan("5", "5"))            # should return False
