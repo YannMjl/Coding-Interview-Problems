@@ -36,8 +36,9 @@ print(repeatedName(a_dict_list))
 # dictionary. if any item in the dictionary added to another one equal to 10.
 # we will print and return those 2 number
 
+# now let's write a function that implements the solution concept
 def IsPairOf10 (given_array):
-  # this hash table will
+  # this hash table will store the number we have already seen while traversing the array
   seen_numbers = {}
   for item in given_array:
     if (10 - item) in seen_numbers:

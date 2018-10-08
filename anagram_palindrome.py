@@ -23,8 +23,9 @@
 # "gtgagtg" : or we can rever the string and check if the character match with the
 # orignal string
 
+# now let's write a function that implements the solution concept
 def anagram_palindrome(word):
-  ## this is a brute solution to check if the owrd is a palindrome
+  # this is a brute solution to check if the owrd is a palindrome
   # using python slicing notation to reverse the string and
   # assuming the string does not have space bewteen characters
   return word == word[::-1]
@@ -32,17 +33,17 @@ def anagram_palindrome(word):
 # the run time will be O(n) as the slicing methot has to go throught each character
 # of the string and compare both strings.
 
-print(anagram_palindrome("noon")) ## true
+print(anagram_palindrome("noon"))        ## should return true
 
-print(anagram_palindrome("carrace")) ## true
+print(anagram_palindrome("carrace"))     ## should return true
 ## "racecar", "carerac", "rcaeacr"
 
-print(anagram_palindrome("cutoo")) ## false
+print(anagram_palindrome("cutoo"))       ## should return false
 ## "otcuo"
 
-print(anagram_palindrome("a")) ## true
+print(anagram_palindrome("a"))           ## should return true
 
-print(anagram_palindrome("aotoa")) ## true
+print(anagram_palindrome("aotoa"))       ## should return true
 
-print(anagram_palindrome("ddaaa")) ## false
+print(anagram_palindrome("ddaaa"))       ## should return false
 # "daaad" or "adada"

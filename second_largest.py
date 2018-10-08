@@ -1,3 +1,5 @@
+# Arrays
+
 # given an array or a Python list of integers, write a function which takes
 # the given array and finds and returns the second largest number in this array.
 
@@ -20,7 +22,7 @@ numbers_list = [2, 5, 1, 9]
 # secondlarg = numbers_list[1]
 # print("Second largest number is: ", secondlarg)
 
-# now let's write the function
+# now let's write a function that implements the solution concept
 def secon_largest(given_Array):
     secondLargestNumber = None
     # check if array is empty
@@ -39,20 +41,20 @@ def secon_largest(given_Array):
 
     return secondLargestNumber
 
-print("The second largest number in the list is: ", secon_largest(numbers_list))
-# should print 5 as second largest number
-
-print("The second largest number in the list is: ", secon_largest([9, 3, 5, 8, 4]))
-# should print 8 as second largest number
-
-print("The second largest number in the list is: ", secon_largest([-3, -5, -2]))
-# should print -3 as second largest number
-
-print("The second largest number in the list is: ", secon_largest([1, 2, 2]))
-# should print 2 as second largest number
+print("The second largest number in the list is: ", secon_largest([]))
+# should print "None" as second largest number
 
 print("The second largest number in the list is: ", secon_largest([3]))
 # should print "None" as second largest number
 
-print("The second largest number in the list is: ", secon_largest([]))
-# should print "None" as second largest number
+print("The second largest number in the list is: ", secon_largest([1, 2, 2]))
+# should print 2 as second largest number
+
+print("The second largest number in the list is: ", secon_largest(numbers_list))
+# should print 5 as second largest number
+
+print("The second largest number in the list is: ", secon_largest([-3, -5, -2]))
+# should print -3 as second largest number
+
+print("The second largest number in the list is: ", secon_largest([9, 3, 5, 8, 4]))
+# should print 8 as second largest number
