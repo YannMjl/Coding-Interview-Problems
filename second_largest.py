@@ -12,7 +12,7 @@ numbers_list = [2, 5, 1, 9]
 # Yes, in that case, second largest should return none as well.
 # What if we had, say, two two one. Then second largest should return two.
 
-# one way to approch tis question will be to sort the array list in descending
+# one way to approach this question will be to sort the array list in descending
 # order (from largest to smallest), pass reverse = true into sort
 # Then print the second last element in the array which will be the second largest
 
@@ -20,6 +20,7 @@ numbers_list = [2, 5, 1, 9]
 # secondlarg = numbers_list[1]
 # print("Second largest number is: ", secondlarg)
 
+# now let's write the function
 def secon_largest(given_Array):
     secondLargestNumber = None
     # check if array is empty
