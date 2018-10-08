@@ -12,7 +12,8 @@ a_dict['city'] = 'Minneapolis'
 a_dict['Zipcode'] = 55414
 print(a_dict)
 
-# given a list of names, write a function that finds a name that appears twice in the list
+# given a list of names
+# write a function that finds a name that appears twice in that list
 a_dict_list = {'mark', 'tom', 'jim', 'tony', 'tom', 'frank'}
 
 def repeatedName(given_list):
@@ -26,8 +27,9 @@ def repeatedName(given_list):
 
 print(repeatedName(a_dict_list))
 
-# given an aary of numbers, find a pair of number that add up to 10
+# given an array of numbers, find a pair of number that add up to 10
 # The function should return or print out the pair of number that add up to 10
+
 # we will resolve this sulation with a run time of O(n)
 
 # for this question, we are going to traverse the list and store each item in the
