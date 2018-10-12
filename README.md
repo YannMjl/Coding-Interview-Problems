@@ -1,7 +1,8 @@
 # Coding-Interview-Problems
 
 This project content answers to sample questions similar to those asked during a coding interview.
-The language used: Python 3
+
+#### The language used: Python 3
 
 ## Author
 
