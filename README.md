@@ -2,7 +2,7 @@
 
 This project content answers to sample questions similar to those asked during a coding interview.
 
-#### Code written in Python 3
+### Code written in Python 3
 
 ## Author
 
