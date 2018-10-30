@@ -30,7 +30,7 @@ print(repeatedName(a_dict_list))
 # given an array of numbers, find a pair of number that add up to 10
 # The function should return or print out the pair of number that add up to 10
 
-# we will resolve this sulation with a run time of O(n)
+# we will resolve this sulation with a run linear time complexcity O(n)
 
 # for this question, we are going to traverse the list and store each item in the
 # dictionary. if any item in the dictionary added to another one equal to 10.
