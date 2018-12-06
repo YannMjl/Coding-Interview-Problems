@@ -1,6 +1,6 @@
 # Coding-Interview-Problems
 
-This project content answers to sample questions similar to those asked during a coding interview.
+Answers to sample coding questions similar to those asked during a coding interview.
 
 ### Code written in Python 3.7
 
