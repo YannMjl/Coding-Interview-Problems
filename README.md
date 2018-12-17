@@ -1,6 +1,6 @@
 # Coding-Interview-Problems
 
-Answers to sample coding questions similar to those asked during a coding interview.
+Answers to sample coding questions similar to those asked during a Coding Interview.
 
 ### Code written in Python 3.7
 
