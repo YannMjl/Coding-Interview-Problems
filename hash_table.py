@@ -54,7 +54,6 @@ list2 = [5, 7, 0, 6, 5]
 list3 = [9, 2, 8, 1, 3]
 list4 = [-12, 4, -67, 2]
 
-
 print(IsPairOf10(list1)) # should return 5
 print(IsPairOf10(list2)) # should return 6
 print(IsPairOf10(list3)) # should return 8
